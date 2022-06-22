@@ -32,9 +32,11 @@ This mjml...
 
 Will show this chart:
 
-![MJML rendered chart](https://quickchart.io/chart?v=3&c=%7B%0A%20%20type%3A%20%27bar%27%2C%0A%20%20data%3A%20%7B%0A%20%20%20%20labels%3A%20%5B%27Q1%27%2C%20%27Q2%27%2C%20%27Q3%27%2C%20%27Q4%27%5D%2C%0A%20%20%20%20datasets%3A%20%5B%7B%0A%20%20%20%20%20%20label%3A%20%27Users%27%2C%0A%20%20%20%20%20%20data%3A%20%5B50%2C%2060%2C%2070%2C%20180%5D%2C%0A%20%20%20%20%20%20backgroundColor%3A%20%27rgb(75%2C%20192%2C%20192)%27%2C%0A%20%20%20%20%7D%5D%0A%20%20%7D%0A%7D%0A)
+<img width="500" alt="MJML rendered chart" src="https://quickchart.io/chart?v=3&c=%7B%0A%20%20type%3A%20%27bar%27%2C%0A%20%20data%3A%20%7B%0A%20%20%20%20labels%3A%20%5B%27Q1%27%2C%20%27Q2%27%2C%20%27Q3%27%2C%20%27Q4%27%5D%2C%0A%20%20%20%20datasets%3A%20%5B%7B%0A%20%20%20%20%20%20label%3A%20%27Users%27%2C%0A%20%20%20%20%20%20data%3A%20%5B50%2C%2060%2C%2070%2C%20180%5D%2C%0A%20%20%20%20%20%20backgroundColor%3A%20%27rgb(75%2C%20192%2C%20192)%27%2C%0A%20%20%20%20%7D%5D%0A%20%20%7D%0A%7D%0A" />
 
-Customize the background color, width, height, and other parameters using the attributes below.
+Set the image's background color, width, height, and more using the attributes below.
+
+To learn more about building and customizing charts with Chart.js, refer to the [Chart.js documentation](https://www.chartjs.org/docs/latest/configuration/).
 
 ## Setup
 
@@ -73,10 +75,6 @@ In addition to regular image attributes which you can using for sizing and posit
 | api-key          | QuickChart.io API key (optional, for signing requests)    |           |               |
 | api-account      | QuickChart.io account ID (optional, for signing requests) |           |               |
 
-## Hosting
-
-By default, this component uses the public [QuickChart](https://quickchart.io) web service to render charts, but you can use the `host` attribute to point to your own chart renderer.
-
 ## Limitations
 
 ### Large charts
@@ -94,3 +92,7 @@ If you decide that you want to send a large data payload anyways, consider pre-r
 ### No interactivity (animations or tooltips)
 
 This package works by rendering your Chart.js chart as an image.  This means it is not psosible to retain interactive chart features such as animations or tooltips.
+
+## Hosting
+
+By default, this component uses the public [QuickChart](https://quickchart.io) web service to render charts, but you can use the `host` attribute to point to your own chart renderer.
