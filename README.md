@@ -1,5 +1,6 @@
 # mjml-chartjs
-[![Build Status](https://travis-ci.com/typpo/mjml-chartjs.svg?branch=master)](https://travis-ci.com/typpo/mjml-chartjs)
+[![npm](https://img.shields.io/npm/v/mjml-chartjs)](https://www.npmjs.com/package/mjml-chartjs)
+[![Build Status](https://travis-ci.com/typpo/mjml-chartjs.svg?branch=main)](https://travis-ci.com/typpo/mjml-chartjs)
 
 An MJML component for embedding Chart.js charts in email using the open-source [QuickChart](https://quickchart.io) renderer.
 
