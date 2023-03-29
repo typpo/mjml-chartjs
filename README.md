@@ -59,9 +59,9 @@ Then add the package to your `.mjmlconfig`:
 
 ## Attributes
 
-The `<mj-chartjs>` tag supports all the attributes of the `<mj-image>` tag.  View those attributes [here](https://mjml.io/documentation/#mjml-image).
+The `<mj-chartjs>` tag supports all the attributes of the `<mj-image>` tag.  View those attributes [here](https://documentation.mjml.io/#mj-image).
 
-In addition to regular image attributes which you can using for sizing and positioning, the component supports the following QR-specific attributes:
+In addition to regular image attributes which you can using for sizing and positioning, the component supports the following chart-specific attributes:
 
 | Name             | Description                                               | Required? | Default       |
 |------------------|-----------------------------------------------------------|-----------|---------------|
@@ -88,7 +88,7 @@ The good news is that you should almost never need to send a URL that long.  If 
 - Is it possible to remove datapoints from the chart?  You probably don't need to show that level of detail.
 - Can you reduce the precision of your chart values?  The user probably won't be able to see the difference between 1.0 and 1.000000025
 
-If you decide that you want to send a large data payload anyways, consider pre-registering the charts as [short URLs](https://quickchart.io/documentation/#short-urls) and then sending the shortened URLs in a regular `mj-image` tag.
+If you decide that you want to send a large data payload anyways, consider pre-registering the charts as [short URLs](https://quickchart.io/documentation/usage/short-urls-and-templates/) and then sending the shortened URLs in a regular `mj-image` tag.
 
 ### No interactivity (animations or tooltips)
 
